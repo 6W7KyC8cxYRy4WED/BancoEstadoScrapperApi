@@ -1,6 +1,6 @@
 {
+  "type": "module",
   "name": "banco-estado-scrapper-api",
-  "version": "0.0.0",
   "description": "BancoEstadoScrapperApi",
   "main": "app.js",
   "author": {
@@ -9,5 +9,10 @@
   "devDependencies": {
     "eslint": "^8.57.0"
   },
-  "eslintConfig": {}
+  "eslintConfig": {},
+  "dependencies": {
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "puppeteer-har": "^1.1.2"
+  }
 }
